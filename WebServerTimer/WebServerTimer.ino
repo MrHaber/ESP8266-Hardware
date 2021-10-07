@@ -34,8 +34,8 @@ const uint16_t GLCD_Color_White = 0xFFFF;
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
 #ifndef STASSID
-#define STASSID "H@e"
-#define STAPSK  "r5FJhhSob9r"
+#define STASSID "HOME ID" // Filling require
+#define STAPSK  "PASSWORD" // Filling require
 #endif
 const char* ssidAP     = "ESP8266-Access-Point";
 const char* passwordAP = "123456789";
